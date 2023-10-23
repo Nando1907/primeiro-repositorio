@@ -10,6 +10,6 @@ p {
     text-align: center;
 }
 
-em p {
-    color: rgba(29, 247, 0, 0.993);
+em strong {
+    color: rgba(30, 255, 0, 0.993);
 }
