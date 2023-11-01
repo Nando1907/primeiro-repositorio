@@ -2,6 +2,10 @@ body {
 
 }
 
+img {
+    width: 100%;
+}
+
 h1 {
     text-align: center;
 }
@@ -30,12 +34,12 @@ h2 {
 .imagembeneficios {
     width: 50%;
 }
-    
+
 
 u1 {
     display: inline-block;
     vertical-align: top;
     width: 20%;
-    margin-right: 15%
+    margin-right: 15%;
 
 }
