@@ -1,17 +1,23 @@
-header, a {
-    color: transparent;
-    left: -1000000px;
+header {
+    background: #CCCCCC;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight:  bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 .produtos {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
-}
-
-.produtos h1 {
-    font-size: 30px;
-    font-weight: bold;
 }
 
 .produtos li {
@@ -22,25 +28,15 @@ header, a {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
 }
 
-.produtos li:hover {
-    border-color:#C78C19;
-    border-width: 4px;
-}
-
-.produtos li:active {
-    border-color: #CCCCCC;
-}
-
-.produtos li:hover h1 {
-    font-size: 25px;
+.produtos h2 {
+    font-size:  30px;
+    font-weight: bold;
 }
 
 .produto-descricao {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .produtos-preco {
